@@ -1,0 +1,66 @@
+.site{
+    display: flex;
+    
+    
+}
+
+
+.Task_colume{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    border-color: black;
+    padding-bottom: calc(41%);
+    padding-right: 3%;
+    padding-left: 2%;
+    max-width: calc(6%);
+    
+}
+
+
+#s1{
+    position:absolute;
+    top: calc(75%) ;
+    left: calc(1.5%);
+}
+#s2{
+    position: absolute;
+    top: calc(85%);
+    left: calc(1.5%);
+}
+
+
+.Clock-box{
+    display: block;
+    flex-direction: row;
+    position: absolute;
+    left: 12%;
+
+    padding-right: 40%;
+    padding-bottom: calc(15%);
+
+
+}
+
+.clock{
+    position: absolute;
+    left: calc(20%);
+    font-size: 70px;
+}
+
+
+
+
+.spotify{
+    display: block;
+    flex-direction: row;
+    position: absolute;
+    top: calc(35%);
+    left: 12%;
+    
+    padding-right: 40%;
+    padding-bottom: calc(18%);
+
+}

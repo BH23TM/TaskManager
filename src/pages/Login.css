@@ -1,0 +1,27 @@
+.box{
+    border-style: solid;
+    padding-bottom: 70vh;
+    padding-left: 3vh;
+    width: 40vh;
+    position: absolute;
+    left: 82vh;
+    
+    
+}
+.email{
+    position: absolute;
+    left: 10vh;
+    bottom: 30vh;
+    
+}
+.password{
+    position: absolute;
+    bottom: 20vh;
+    left: 10vh;
+}
+.signup{
+    position: absolute;
+    bottom: 10vh;
+    left: 18vh;
+    cursor: pointer;
+}
