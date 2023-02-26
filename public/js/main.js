@@ -53,7 +53,6 @@ let anotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
 
 console.log(newTask.getDueDate());
 console.log(newTask.valueOf() == anotherTask.valueOf())
-*/
 
 let taskList = []
 let newTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0), "Clean my butthole.");
@@ -62,4 +61,7 @@ let yetAnotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
 newTask.setName("Really Wash Butt")
 taskList.push(newTask);
 taskList.push(anotherTask);
-console.log(taskList[0]);
+taskList.push(yetAnotherTask);
+console.log(taskList[1]); 
+*/
+
