@@ -1,0 +1,39 @@
+.nav {
+    width: auto;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightgray;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: darkslategray;
+    background-color: lightgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: #52c484;
+}
+
+.right {
+    float: right;
+}
