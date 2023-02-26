@@ -37,11 +37,3 @@
   }
 }
 
-.nav {
-  width: auto;
-  height: 20px;
-  color: "lightBlue";
-  background-color: "blue";
-  display: flex;
-  flex-direction: row;
-}
