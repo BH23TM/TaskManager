@@ -13,6 +13,10 @@ class Task {
     }
 
     // Getters 
+    getName() {
+        return this._name;
+    }
+
     getDueDate() {
         return this._dateTime;
     }
@@ -22,6 +26,10 @@ class Task {
     }
 
     // Setters
+    setName(newName) {
+        this._name = newName;
+    }
+
     setDueDate(newDate) {
         this._dateTime = newDate;
     }
@@ -51,7 +59,7 @@ let taskList = []
 let newTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0), "Clean my butthole.");
 let anotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
 let yetAnotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
-
+newTask.setName("Really Wash Butt")
 taskList.push(newTask);
 taskList.push(anotherTask);
 console.log(taskList[0]);
