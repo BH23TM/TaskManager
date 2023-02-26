@@ -1,6 +1,17 @@
+
+const boxStyle = {
+    color: "white",
+    backgroundColor: "white",
+    padding: "500px",
+}
+
 const Dashboard = () => {
     return (
-    <h1>Dashboard Page</h1>
+        <div style={ boxStyle }>
+            <h1 className = ".header">
+                Dashboard Page
+            </h1>
+        </div>
     );
 };
 
