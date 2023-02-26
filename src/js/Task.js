@@ -1,4 +1,4 @@
-"use strict";
+import React, { Component } from 'react';
 
 // Task Class ----------------------------------------------------------|
 class Task {
@@ -43,6 +43,10 @@ class Task {
     }
 
 }
+
+export default class Task extends Component;
+
+
 
 
 /*
