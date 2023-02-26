@@ -2,12 +2,14 @@
 
 // Task Class ----------------------------------------------------------|
 class Task {
-    _dateTime
+    _name;
+    _dateTime;
     _description;
-    
-    constructor(descr, date) {
-        this._description = descr;
-        this._dateTime = date;
+
+    constructor(name, date, descr=null) {
+        this._name = name;
+        this._dateTime = date; 
+        this._description = descr;  
     }
 
     // Getters 
@@ -35,12 +37,21 @@ class Task {
 }
 
 
+/*
+task class test code
 let newTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
 
 let anotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
 
 console.log(newTask.getDueDate());
-console.log(newTask.valueOf(), anotherTask.valueOf())
-console.log(JSON.stringify(newTask) === JSON.stringify(anotherTask));
-console.log(newTask == anotherTask);
+console.log(newTask.valueOf() == anotherTask.valueOf())
+*/
 
+let taskList = []
+let newTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0), "Clean my butthole.");
+let anotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
+let yetAnotherTask = new Task("Wash Butt", new Date(2023, 5, 20, 5, 0, 0));
+
+taskList.push(newTask);
+taskList.push(anotherTask);
+console.log(taskList[0]);
