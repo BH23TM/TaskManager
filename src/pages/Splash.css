@@ -1,0 +1,25 @@
+.Instructions{
+    display:flex;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 10vw;
+}
+.Title{
+    font-size: 10vh;
+    margin-top:10vh;
+}
+.Description{
+    margin:0;
+}
+.step1{
+    height: 70%;
+    width:60%;
+}
+.step2{
+    height: 70%;
+    width:60%;
+}
+.step3{
+    height: 70%;
+    width:60%;
+}
